@@ -24,3 +24,12 @@
 button {
   margin: 0.8rem;
 }
+
+.product {
+  max-width: 98%;
+}
+
+.product img {
+  margin-top: 0.8rem;
+  max-width: 98%;
+}

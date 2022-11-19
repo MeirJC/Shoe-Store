@@ -1,0 +1,26 @@
+.cardContainer {
+  background-color: rgba(175, 203, 216, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* outline: 8px solid limegreen; */
+}
+
+.shoesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 1rem;
+  margin: 0.75rem;
+}
+
+
+.product {
+  margin: 1.5rem;
+}
+
+button {
+  margin: 0.8rem;
+}

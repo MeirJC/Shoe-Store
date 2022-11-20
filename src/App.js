@@ -9,7 +9,9 @@ import Shoe from "./components/Shoe";
 function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [shoesData, setShoesData] = useState({});
-
+  shoesData === "impossible"
+    ? console.log(shoesData)
+    : console.log(shoesData, "HII :)");
   return (
     <div className="App">
       <Nav></Nav>

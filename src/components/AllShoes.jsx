@@ -41,6 +41,7 @@ function AllShoes({ setIsLoading }) {
       setErrorMes(e.message);
       setTimeout(() => {
         setErrorMes(null);
+        console.log(errorMes);
       }, 1200);
     }
   };
